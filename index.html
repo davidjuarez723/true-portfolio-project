@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Juarez Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img src="headshot.jpg" alt="Your Headshot">
+      <h1>Hello! I'm David Juarez</h1>
+      <h2>Software Development</h2>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <img src="about-photo.jpg" alt="About Photo">
+      <h2>About Me</h2>
+      <h3>Building Applications in the Heart of the PNW</h3>
+      <p>Hola! I'm David, a proud child to Hispanic parents hailing from the vibrant city of Portland, Oregon. As a creative soul, I have a passion for bringing ideas to life and making things happen. When I'm not glued to my computer, you can find me swinging clubs on the golf course, rocking out on the drums, immersing myself in epic video game quests, or cherishing precious moments with my amazing wife. Join me as we build a world filled with innovative applications, boundless creativity, and endless possibilities!</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Git/GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-previews">
+        <div class="project-preview" onclick="openProject('project1')">
+          <img src="project1-preview.jpg" alt="Project 1 Preview">
+          <h3>Project 1</h3>
+        </div>
+        <div class="project-preview" onclick="openProject('project2')">
+          <img src="project2-preview.jpg" alt="Project 2 Preview">
+          <h3>Project 2</h3>
+        </div>
+        <div class="project-preview" onclick="openProject('project3')">
+          <img src="project3-preview.jpg" alt="Project 3 Preview">
+          <h3>Project 3</h3>
+        </div>
+        <div class="project-preview" onclick="openProject('project4')">
+          <img src="project4-preview.jpg" alt="Project 4 Preview">
+          <h3>Project 4</h3>
+        </div>
+        <div class="project-preview" onclick="openProject('project5')">
+          <img src="project5-preview.jpg" alt="Project 5 Preview">
+          <h3>Project 5</h3>
+        </div>
+        <div class="project-preview" onclick="openProject('project6')">
+          <img src="project6-preview.jpg" alt="Project 6 Preview">
+          <h3>Project 6</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Email: davidjuarez723@gmail.com</p>
+      </div>
+      <div class="social-media">
+        <h3>Social Media</h3>
+        <ul>
+          <li><a href="#" target="_blank"><img src="social-icon-1.png" alt="Social Media Icon"></a></li>
+          <li><a href="#" target="_blank"><img src="social-icon-2.png" alt="Social Media Icon"></a></li>
+          <li><a href="#" target="_blank"><img src="social-icon-3.png" alt="Social Media Icon"></a></li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Me</h3>
+        <!-- Add your contact form here -->
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openProject(projectName) {
+      // Handle the logic to open the project page or link based on the project name
+      // For example:
+      if (projectName === 'project1') {
+        window.location.href = 'project1.html';
+      } else if (projectName === 'project2') {
+        window.location.href = 'project2.html';
+      }
+      // Repeat the above pattern for the rest of the projects
+    }
+  </script>
+</body>
+
+</html>

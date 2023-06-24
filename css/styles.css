@@ -1,0 +1,36 @@
+html {
+    font-size: 16px;
+}
+
+:root {
+    --primary-color: #5E7366;  /* Main color for headers and links */
+    --secondary-color: #B7C9A3;  /* Secondary color for backgrounds and accents */
+    --text-color: #333333;  /* Text color for body content */
+    --highlight-color: #8CBEB2;  /* Color for highlighting elements */
+    --accent-color: #D9E8E2;  /* Additional color for accents */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+}
+  
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+  
+p {
+    line-height: 1.5;
+}
+  
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+  
+a:hover {
+    color: var(--highlight-color);
+}
+  
+  
